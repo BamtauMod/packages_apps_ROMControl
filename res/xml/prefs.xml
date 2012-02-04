@@ -120,15 +120,4 @@
 
 	</PreferenceCategory>
 
-		<Preference
-			android:key="init_d"
-			android:title="@string/pt_init_d"
-			android:summary="@string/ps_init_d">
-			<intent
-				android:action="android.intent.action.MAIN"
-				android:targetPackage="com.roman.romcontrol"
-				android:targetClass="com.roman.romcontrol.tools.InitD" />
-		</Preference>
-	</PreferenceCategory>
-
 </PreferenceScreen>
